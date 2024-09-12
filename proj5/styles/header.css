@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 1366px;
+  height: 750px;
+  object-fit: cover;
+  background-image:url("../../proj5/assets/bg/Background_Intro.png");
+
+    .avatar {
+      text-align: center;
+      padding-block: 284px 56px;
+      align-items: center;
+    }
+
+    .subtitle {
+      text-align: center;
+
+        span {
+        color: var(--red);
+        padding-top:56px;
+        padding-bottom:8px ;
+        }
+
+    }
+
+
+    .text-lg {
+
+    }
+
+    .text-sm {
+      padding-bottom: 80px;
+
+    }
+  }

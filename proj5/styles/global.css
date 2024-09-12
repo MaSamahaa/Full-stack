@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding-block:0;
   box-sizing: border-box;
 }
 
@@ -53,6 +53,7 @@ h3 {
 
 .text-md {
   font: var(--text-md);
+  color: var(--gray-500);
 }
 
 .text-sm {
@@ -60,11 +61,8 @@ h3 {
   color: var(--gray-400);
 }
 
-div {
-  background-image:url("../../proj5/assets/bg/Background_Intro.png");
-
-}
-
-p span {
-  color: var(--red);
+body {
+  display: flex;
+  width: 1366px;
+  height: 750px;
 }
