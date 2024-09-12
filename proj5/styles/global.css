@@ -1,5 +1,5 @@
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -9,15 +9,62 @@
   --purple:#BB72E9;
   --blue:#3996DB;
   --green:#82BC4F;
-  --yeallow:#EABD5F;
+  --yellow:#EABD5F;
+
   --gray-100:#0D0E11;
   --gray-200:#16181D;
   --gray-300:#292C34;
   --gray-400:#878EA1;
   --gray-500:#C0C4CE;
   --gray-600:#E2E4E9;
+
+  --title-font:'Asap';
+  --subtitle-font:'Inconsolata';
+  --text-font:'Maven Pro';
+
+
+  --title-lg:700 56px/120% var(--title-font);
+  --title-md:700 24px/120% var(--title-font);
+  --title-sm:700 16px/120% var(--title-font);
+
+  --subtitle:400 20px/120% var(--subtitle-font);
+
+  --text-md:400 16px/140% var(--text-font);
+  --text-sm:400 14px/140% var(--text-font);
 }
 
-body {
-  color:var(--gray-100);
+h1 {
+  font: var(--title-lg);
+  color:var(--gray-600);
+}
+
+h2 {
+  font:var(--title-md);
+}
+
+h3 {
+  font: var(--text-sm);
+}
+
+.subtitle {
+  font: var(--subtitle);
+  color:var(--gray-500);
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.text-sm {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+div {
+  background-image:url("../../proj5/assets/bg/Background_Intro.png");
+
+}
+
+p span {
+  color: var(--red);
 }
