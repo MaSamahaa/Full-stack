@@ -1,24 +1,23 @@
-.header {
-  display: flex;
-  align-items: center;
+header {
+  background-image:url("../../proj5/assets/bg/Background_Intro.png");
+  background-size:contain;
   width: 1366px;
   height: 750px;
-  object-fit: cover;
-  background-image:url("../../proj5/assets/bg/Background_Intro.png");
 
     .avatar {
+      box-sizing: border-box;
       text-align: center;
-      padding-block: 284px 56px;
-      align-items: center;
+      padding-top: 120px;
     }
 
     .subtitle {
       text-align: center;
+      padding-top:56px;
+      padding-bottom:8px ;
 
         span {
         color: var(--red);
-        padding-top:56px;
-        padding-bottom:8px ;
+
         }
 
     }
@@ -29,7 +28,48 @@
     }
 
     .text-sm {
-      padding-bottom: 80px;
+      padding-bottom: 40px;
 
     }
   }
+
+  .container {
+    box-sizing: border-box;
+    width: 1366px;
+    height: 750px;
+    padding: 94px;
+    margin: 100px;
+
+  }
+
+  h1 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .text-sm {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+
+  div {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 94px;
+
+  }
+
+   a {
+    text-decoration: none;
+  }
+
+.tag {
+  display: inline-block;
+  padding:16px;
+  align-items: center;
+}
+
+.setinha {
+  align-items: center;
+  padding-bottom: 57px;
+}
