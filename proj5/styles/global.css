@@ -33,6 +33,12 @@
   --text-sm:400 14px/140% var(--text-font);
 }
 
+body {
+  min-height: 100dvh;
+  height: fit-content;
+  width: 100vw;
+}
+
 h1 {
   font: var(--title-lg);
   color:var(--gray-600);
@@ -60,3 +66,4 @@ h3 {
   font: var(--text-sm);
   color: var(--gray-400);
 }
+

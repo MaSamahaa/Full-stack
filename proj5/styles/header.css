@@ -1,13 +1,15 @@
 header {
   background-image:url("../../proj5/assets/bg/Background_Intro.png");
   background-size:contain;
-  width: 1366px;
-  height: 750px;
+  width: 100vw;
+  height: 100dvh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 
     .avatar {
-      box-sizing: border-box;
-      text-align: center;
-      padding-top: 120px;
+      margin-bottom: 3rem;
     }
 
     .subtitle {
@@ -34,12 +36,8 @@ header {
   }
 
   .container {
-    box-sizing: border-box;
-    width: 1366px;
-    height: 750px;
-    padding: 94px;
-    margin: 100px;
-
+    width: 100%;
+    height: 100%;
   }
 
   h1 {
@@ -52,24 +50,20 @@ header {
     padding-bottom: 80px;
   }
 
-  div {
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 94px;
-
-  }
 
    a {
     text-decoration: none;
+
   }
 
 .tag {
   display: inline-block;
   padding:16px;
-  align-items: center;
+
 }
 
 .setinha {
-  align-items: center;
-  padding-bottom: 57px;
+  position: absolute;
+  bottom: 59px;
 }
+
