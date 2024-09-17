@@ -1,0 +1,25 @@
+
+.projects {
+  background-color: var(--gray-200);
+  text-align: center;
+}
+
+ .subtitle {
+  color:var(--red);
+  margin-bottom: 8px;
+  padding-top:72px;
+
+}
+
+.projects h2 {
+  color: var(--gray-600);
+  padding-bottom: 56px;
+}
+
+.grid {
+  background-color: var(--gray-300);
+}
+
+.projects h3 {
+  color: var(--gray-600);
+}
