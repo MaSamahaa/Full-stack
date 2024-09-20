@@ -2,7 +2,7 @@ header {
   background-image:url("../../proj5/assets/bg/Background_Intro.png");
   background-size:cover;
   width: 100vw;
-  height: 100dvh;
+  height: 750px;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -69,7 +69,5 @@ div .icons {
   }
 
 .setinha {
-  position: absolute;
-  bottom: 60.5px;
+padding-top: 94px;
 }
-
