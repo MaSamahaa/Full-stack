@@ -1,6 +1,6 @@
 header {
   background-image:url("../../proj5/assets/bg/Background_Intro.png");
-  background-size:contain;
+  background-size:cover;
   width: 100vw;
   height: 100dvh;
   display: flex;

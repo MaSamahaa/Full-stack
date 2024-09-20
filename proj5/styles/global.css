@@ -46,10 +46,12 @@ h1 {
 
 h2 {
   font:var(--title-md);
+  color: var(--gray-600);
 }
 
 h3 {
-  font: var(--text-sm);
+  font: var(--title-sm);
+  color: var(--gray-600);
 }
 
 .subtitle {
@@ -66,4 +68,3 @@ h3 {
   font: var(--text-sm);
   color: var(--gray-400);
 }
-
