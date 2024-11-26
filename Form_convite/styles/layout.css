@@ -1,0 +1,72 @@
+
+#festivite {
+  display: grid;
+  grid-template-columns: 31.25% 68.75%;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+aside {
+  overflow: auto;
+  padding: 4rem;
+  background-color:#212427;
+  border: solid red 3px;
+
+  & .aside-container{
+
+
+
+    max-width: 33rem;
+    margin-right: auto;
+  }
+
+
+
+}
+
+
+main {
+
+  padding: 1rem;
+  display: flex;
+  background-image: url(/Form_convite/assets/Background.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:100%;
+
+    & .fixa {
+
+      position: relative;
+      margin: 1rem;
+
+      max-width: 21rem;
+
+
+      & > img {
+          margin-top: 1rem;
+        }
+
+    & h1 {
+
+        font-family: var(--font-logo);
+        font-weight: 400;
+        font-size: 2.5rem;
+        color: var(--pink);
+
+      }
+
+    & h2 {
+
+        padding-top: 1rem;
+        font-family: var(--font-body);
+        font-size: 1rem;
+        font-weight: 200;
+        color: var(--text-heading);
+      }
+
+  }
+}
+
+
