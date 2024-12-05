@@ -3,6 +3,7 @@
 
   & img[src*="music"] {
     width: 12.875rem;
+
   }
 
   & h1 {
@@ -29,6 +30,7 @@
 
     & img[src*="music"] {
       width: 25.75rem;
+
 
   }
 
